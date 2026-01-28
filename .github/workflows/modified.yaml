@@ -42,7 +42,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
       # CINTENT >> INSERT_CINTENT
-      - uses: JavidDitty/setup-cintent@254e41df4c7acff7e2d604b41050dd5e6b4c3ae4
+      - uses: JavidDitty/setup-cintent@3e5b2faf83a2ad32c22a1cd0f86f5f20ea53a5ab
 
       - name: Install dependencies
         run: |
